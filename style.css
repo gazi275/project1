@@ -2,3 +2,72 @@
 img{
     margin: 6px;
 }
+.first{
+    background-image: url("kunfo.jpg");
+    height: 98vh;
+    width: 100%;
+    background-position:fixed ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    border: 2px solid white;
+    
+    /* position: absolute;
+   top: 50%;
+   left: 50%;
+    transform: translate(-50%,-50%); */
+    width: 400px;
+    border-radius: 10px;
+   text-align: center;
+   color: white;
+   background-color: rgba(131, 130, 218, 0.645); 
+   font-size: x-large;
+   font-weight: bold;
+   box-shadow: 3px 3px 20px;
+   
+
+}
+input{
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    padding: 7px 50px ;
+    margin-bottom: 9px;
+}
+ .p1{
+text-align: center;
+font-size: 55px;
+
+}.forget{
+    font-size: 16px;
+}
+
+
+
+a{
+    
+    color: aliceblue;
+}
+a:hover{
+    color: blueviolet;
+}.btn{
+    padding: 8px 27px;
+    font-size: x-large ;
+    background-color: red;
+    margin-bottom: 4px;
+    color: white;
+}.btn:hover{
+    color: black;
+    background-color: chocolate;
+}
+.remember input{
+    display: inline ;
+
+}
+.remember label{
+    font-size: medium ;
+}
